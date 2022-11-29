@@ -1,7 +1,7 @@
 const express = require("express");
-const RecordDataModel = require("../models/Record.model");
+const RecordDataModel = require("../Models/Record.model");
 const recordController = express.Router();
-let jwt = require("jsonwebtoken");
+// let jwt = require("jsonwebtoken");
 const authentication = require("../Middleware/authentication");
 const authorization = require("../Middleware/authorization");
 const axios = require("axios");

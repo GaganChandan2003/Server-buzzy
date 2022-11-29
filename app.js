@@ -12,8 +12,8 @@ app.use(express.json());
 require("dotenv").config();
 
 
-const userController = require('./Routes/user.routes');
-const recordController = require('./Routes/record.routes.js');
+const userController = require('./routes/user.routes');
+const recordController = require('./routes/record.routes.js');
 
 
 
